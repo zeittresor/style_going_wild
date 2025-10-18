@@ -5,7 +5,7 @@ This is a simple project with a huge impact, the simple script is creating exact
 
 <img width="372" height="183" alt="styleToWildcart2" src="https://github.com/user-attachments/assets/41dc3603-e793-435e-bfc3-4434379bd713" />
 
-The Script let you select a .csv file like your custom made style file from for ex. ..\webui_forge_cu124_torch24\webui\styles.csv
+The Stand-Alone GUI Script (just start it) let you select a .csv file like your custom made style file from for ex. ..\webui_forge_cu124_torch24\webui\styles.csv
 
 <img width="495" height="221" alt="styleToWildcart3" src="https://github.com/user-attachments/assets/de04fabe-61be-4cc7-9d01-060878399303" />
 
