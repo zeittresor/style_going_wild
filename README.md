@@ -29,3 +29,7 @@ Now click generate and wait / sleep / what ever.. (it might take some time to st
 If you come back some times later you might find a lot new images in different combined styles and combined with the different negative styled you have entered once for a specific prompt but now for a different one. ;-)
 
 You can also double or combine the prompt and negative prompt or enter it twice or more for quadrillions of different style images.. 
+
+A funny idea.. if you like strange monsters try to swap this o_O x-D
+
+<img width="429" height="250" alt="sd_monsters" src="https://github.com/user-attachments/assets/fe852821-483e-42f2-a3dc-c1b1eabb089c" />
