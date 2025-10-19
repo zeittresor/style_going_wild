@@ -30,10 +30,6 @@ If you come back some times later you might find a lot new images in different c
 
 You can also double or combine the prompt and negative prompt or enter it twice or more for quadrillions of different style images.. 
 
-A funny idea.. if you like strange monsters try to swap this o_O x-D
-
-<img width="429" height="250" alt="sd_monsters" src="https://github.com/user-attachments/assets/fe852821-483e-42f2-a3dc-c1b1eabb089c" />
-
 If you combine the wildcard with itself its also sometimes nice..
 
 <img width="1191" height="605" alt="combined_styles" src="https://github.com/user-attachments/assets/9301ec43-02e4-47fc-b879-c1ff13116d45" />
@@ -42,3 +38,6 @@ If you combine the wildcard with itself its also sometimes nice..
 
 <img width="423" height="251" alt="combined_styles2" src="https://github.com/user-attachments/assets/55f2ecde-62b6-4db6-8d8b-369a0db9e6f9" />
 
+btw. a funny idea.. if you like strange monsters try to swap this x-D
+
+<img width="429" height="250" alt="sd_monsters" src="https://github.com/user-attachments/assets/fe852821-483e-42f2-a3dc-c1b1eabb089c" />
