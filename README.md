@@ -33,3 +33,12 @@ You can also double or combine the prompt and negative prompt or enter it twice 
 A funny idea.. if you like strange monsters try to swap this o_O x-D
 
 <img width="429" height="250" alt="sd_monsters" src="https://github.com/user-attachments/assets/fe852821-483e-42f2-a3dc-c1b1eabb089c" />
+
+If you combine the wildcard with itself its also sometimes nice..
+
+<img width="423" height="251" alt="combined_styles2" src="https://github.com/user-attachments/assets/579910ff-5181-49ff-a8c1-e866280b9c52" />
+
+(One of the original presets contain only a description of a cat but another preset (style) contains only the description of a grass field. The result is a random combination of both) with two random negative prompts).
+
+<img width="423" height="251" alt="combined_styles2" src="https://github.com/user-attachments/assets/55f2ecde-62b6-4db6-8d8b-369a0db9e6f9" />
+
