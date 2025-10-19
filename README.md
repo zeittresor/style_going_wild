@@ -36,7 +36,7 @@ A funny idea.. if you like strange monsters try to swap this o_O x-D
 
 If you combine the wildcard with itself its also sometimes nice..
 
-<img width="423" height="251" alt="combined_styles2" src="https://github.com/user-attachments/assets/579910ff-5181-49ff-a8c1-e866280b9c52" />
+<img width="1191" height="605" alt="combined_styles" src="https://github.com/user-attachments/assets/9301ec43-02e4-47fc-b879-c1ff13116d45" />
 
 (One of the original presets contain only a description of a cat but another preset (style) contains only the description of a grass field. The result is a random combination of both) with two random negative prompts).
 
