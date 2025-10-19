@@ -38,6 +38,6 @@ If you combine the wildcard with itself its also sometimes nice..
 
 <img width="423" height="251" alt="combined_styles2" src="https://github.com/user-attachments/assets/55f2ecde-62b6-4db6-8d8b-369a0db9e6f9" />
 
-btw. a funny idea.. if you like strange monsters try to swap this x-D
+btw. a funny idea.. if you like strange monsters try to swap this vice versa. x-D
 
 <img width="429" height="250" alt="sd_monsters" src="https://github.com/user-attachments/assets/fe852821-483e-42f2-a3dc-c1b1eabb089c" />
