@@ -7,7 +7,7 @@ This is a simple project with a huge impact, the simple script is creating exact
 
 The Stand-Alone GUI Script (just start it) let you select a .csv file like your custom made style file from for ex. ..\webui_forge_cu124_torch24\webui\styles.csv
 
-<img width="495" height="221" alt="styleToWildcart3" src="https://github.com/user-attachments/assets/de04fabe-61be-4cc7-9d01-060878399303" />
+<img width="536" height="238" alt="style2wild_v2_img" src="https://github.com/user-attachments/assets/96ee91a2-c8f7-4b06-bde5-6634bee20f08" />
 
 If you select this file and click the "Generate" button an new folder will be created called "Generated_Styles" (in the same folder where the script is).
 
@@ -41,3 +41,10 @@ If you combine the wildcard with itself its also sometimes nice..
 btw. a funny idea.. if you like strange monsters try to swap this vice versa. x-D
 
 <img width="429" height="250" alt="sd_monsters" src="https://github.com/user-attachments/assets/fe852821-483e-42f2-a3dc-c1b1eabb089c" />
+
+Changelog
+
+23.10.2025
+- Added a option to correct each line for signs like "(", "[", "{".. -> Each line will be corrected if enabled (checked by default)
+- Added a option to include the integrated styles file of forge as additional files
+- New filename the filename of your own styles are now "01-prompt_styles.txt" and "02-negativ_styles.txt" (for the buildin styles_buildin.csv it is similar but with 03-.. and 04-..) the reason is to find them easier in your "my" directory.
