@@ -48,3 +48,5 @@ Changelog
 - Added a option to correct each line for signs like "(", "[", "{".. -> Each line will be corrected if enabled (checked by default)
 - Added a option to include the integrated styles file of forge as additional files
 - New filename the filename of your own styles are now "01-prompt_styles.txt" and "02-negativ_styles.txt" (for the buildin styles_integrated.csv it is similar but with 03-.. and 04-..) the reason is to find them easier in your "my" directory.
+
+<img width="442" height="239" alt="extended" src="https://github.com/user-attachments/assets/5db42eae-756d-44d5-a206-481469a2cd0d" />
