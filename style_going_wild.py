@@ -10,7 +10,7 @@ from tkinter import ttk, filedialog, messagebox
 class CSVGeneratorApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("CSV → Style Files")
+        self.title("Styles → Wildcard files")
         self.geometry("525x200")
         self.resizable(False, False)
         self.csv_path_var = tk.StringVar()
@@ -159,3 +159,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
