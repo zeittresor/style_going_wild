@@ -52,8 +52,8 @@ Changelog
 
 25.10.2025
 
-- Added function to remove duplicated lines and empty lines
-- Changed include buildin Styles checked as default
+- Added function to remove duplicated lines and empty lines with the "correct lines" option in the output files
+- Changed "Include integrated styles" to be checked by default
   
 23.10.2025
 - Added a option to correct each line for signs like "(", "[", "{".. -> Each line will be corrected if enabled (checked by default)
