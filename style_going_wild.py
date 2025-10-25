@@ -10,7 +10,7 @@ from tkinter import ttk, filedialog, messagebox
 class CSVGeneratorApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Styles → Wildcard files")
+        self.title("CSV → Style Files")
         self.geometry("525x200")
         self.resizable(False, False)
         self.csv_path_var = tk.StringVar()
@@ -22,7 +22,7 @@ class CSVGeneratorApp(tk.Tk):
         ttk.Button(frame_csv, text="Browse…", command=self.select_csv).grid(row=0, column=2, sticky=tk.W)
         self.correct_var = tk.BooleanVar(value=True)
         ttk.Checkbutton(self, text="Correct lines", variable=self.correct_var).pack(anchor=tk.W, padx=15, pady=(0, 5))
-        self.integrated_var = tk.BooleanVar(value=False)
+        self.integrated_var = tk.BooleanVar(value=True)
         self.integrated_cb = ttk.Checkbutton(self, text="Include integrated styles", variable=self.integrated_var)
         self.integrated_cb.pack(anchor=tk.W, padx=15)
         ttk.Button(self, text="Generate", command=self.generate_styles).pack(pady=5)
@@ -78,9 +78,11 @@ class CSVGeneratorApp(tk.Tk):
                 open_c, close_c = self.correct_file(prompt_file)
                 total_open += open_c
                 total_close += close_c
+                self.clean_file(prompt_file)
                 open_c, close_c = self.correct_file(negative_file)
                 total_open += open_c
                 total_close += close_c
+                self.clean_file(negative_file)
             if self.integrated_var.get():
                 integ_path = Path(csv_file).parent / "styles_integrated.csv"
                 with open(integ_path, newline="", encoding="utf-8") as f_in, \
@@ -103,9 +105,11 @@ class CSVGeneratorApp(tk.Tk):
                     open_c, close_c = self.correct_file(integ_prompt_file)
                     total_open += open_c
                     total_close += close_c
+                    self.clean_file(integ_prompt_file)
                     open_c, close_c = self.correct_file(integ_negative_file)
                     total_open += open_c
                     total_close += close_c
+                    self.clean_file(integ_negative_file)
             status_msg = f"Files created in '{dest_dir}'. Corrections: {total_open} openings, {total_close} closings."
             self.status_var.set(status_msg)
         except Exception as exc:
@@ -136,6 +140,18 @@ class CSVGeneratorApp(tk.Tk):
             corrected.append("".join(openings_needed) + line + "".join(closings_needed))
         file_path.write_text("\n".join(corrected) + ("\n" if corrected else ""), encoding="utf-8")
         return openings_added, closings_added
+
+    @staticmethod
+    def clean_file(file_path: Path):
+        lines = file_path.read_text(encoding="utf-8").splitlines()
+        seen = set()
+        cleaned = []
+        for line in lines:
+            stripped = line.strip()
+            if stripped and stripped not in seen:
+                seen.add(stripped)
+                cleaned.append(line)
+        file_path.write_text("\n".join(cleaned) + ("\n" if cleaned else ""), encoding="utf-8")
 
 def main():
     app = CSVGeneratorApp()
