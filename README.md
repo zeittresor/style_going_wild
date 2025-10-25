@@ -50,6 +50,11 @@ Known Bugs
 
 Changelog
 
+25.10.2025
+
+- Added function to remove duplicated lines and empty lines
+- Changed include buildin Styles checked as default
+  
 23.10.2025
 - Added a option to correct each line for signs like "(", "[", "{".. -> Each line will be corrected if enabled (checked by default)
 - Added a option to include the integrated styles file of forge as additional files
