@@ -42,6 +42,12 @@ btw. a funny idea.. if you like strange monsters try to swap this vice versa. x-
 
 <img width="429" height="250" alt="sd_monsters" src="https://github.com/user-attachments/assets/fe852821-483e-42f2-a3dc-c1b1eabb089c" />
 
+Known Bugs
+
+- You might notice that there will be some errors in the console while the batch process starting procedure, this happens because some of the wildcard lines might have special signs like a $ character that could be missunderstud by the wildcard extension - just ignore that. I'm just creating a update with a additional checkbox to avoid this mostly.
+- It might happen that a cascading effect will occupie because if you have a personal preset with a reference to __ my/01-prompt_styles __ for example your regular prompt reference to itself, in that cases its working but it could be that truly strange outputs you may sometimes get - also just ignore that.
+
+
 Changelog
 
 23.10.2025
