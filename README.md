@@ -60,6 +60,10 @@ Known Bugs
 
 Changelog
 
+03.11.2025
+
+- Added a "how it works" to the description of the project.
+
 25.10.2025
 
 - Added function to remove duplicated lines and empty lines with the "correct lines" option in the output files
