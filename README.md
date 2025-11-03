@@ -50,7 +50,7 @@ The styles.csv (and the integrated_styles.csv) have a structure like:
 
 The Script read this file(s) and it ignore the "Name" but it is reading any single entry of the "prompt" area writing it back into the new created "01-prompt_styles.txt" file (Wildcard Tag-Name " _ _ my/01-prompt_styles _ _ " (without spaces) and the same with the "Negative Prompt" as 02-negativ_styles.txt to make it usabe as a wildcard " _ _ my/02-negativ_styles _ _ ".
 
-Normaly a wildcard is just a single word or some simple words like for example a wildcard " _ _ fruits _ _ " containing (apple, banana, mango..) each in a single line, but not there are whole prompt in each line. Thats the reason why the start procedure needs some time because the new wildcard files might be much larger in size. I have added some functions to avoid errors but you might notice that there will errors occure in the start procedure using the wildcards - just ignore them (due to some restrictions of wildcard line lenght IMHO).
+Normaly a wildcard have just a single word or some simple words in each specific file like for example a wildcard " _ _ fruits _ _ " containing (apple, banana, mango..) each in a single line, but its not awaiting to get a whole prompt in each line - but this seems to work with this. The reason why the start procedure needs some more time is because the new wildcard files might be much larger in size or line lenght as usual for a wildcard. I have added some functions to avoid some errors (like unclosed "(" or unopen ")", anyway you might notice that there could some errors occure in the console in the start procedure using this special wildcards - just ignore the errors (IMHO its due to some restrictions of wildcard line lenght or something like that).
 
 Known Bugs
 
