@@ -1,7 +1,7 @@
 # style_going_wild
 Create wildcards from your styles of SD Forge / A1111
 
-This is a simple project with a huge impact, the simple script is creating exactly 2 .txt files from your custom styles you might have created using this function of Forge for Stable Diffusion.
+This is a simple project with a huge impact, the simple script is creating exactly 2 .txt files from your custom styles you might have created using this function of Forge for Stable Diffusion (or 4 if you include the forge included styles).
 
 <img width="372" height="183" alt="styleToWildcart2" src="https://github.com/user-attachments/assets/41dc3603-e793-435e-bfc3-4434379bd713" />
 
