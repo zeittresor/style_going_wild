@@ -48,14 +48,14 @@ The styles.csv (and the integrated_styles.csv) have a structure like:
 
 "Name","Prompt","Negative Prompt"
 
-The Script read this file(s) and it ignore the "Name" but it is reading any single entry of the "prompt" area writing it back into the new created "01-prompt_styles.txt" file (Wildcard Tag-Name "__ my/01-prompt_styles __" (without spaces) and the same with the "Negative Prompt" as 02-negativ_styles.txt to make it usabe as a wildcard "__ my/02-negativ_styles __".
+The Script read this file(s) and it ignore the "Name" but it is reading any single entry of the "prompt" area writing it back into the new created "01-prompt_styles.txt" file (Wildcard Tag-Name "_ _ my/01-prompt_styles _ _" (without spaces) and the same with the "Negative Prompt" as 02-negativ_styles.txt to make it usabe as a wildcard "_ _ my/02-negativ_styles _ _".
 
 Normaly a wildcard is just a single word or some simple words like for example a wildcard "__ fruits __" containing (apple, banana, mango..) each in a single line, but not there are whole prompt in each line. Thats the reason why the start procedure needs some time because the new wildcard files might be much larger in size. I have added some functions to avoid errors but you might notice that there will errors occure in the start procedure using the wildcards - just ignore them (due to some restrictions of wildcard line lenght IMHO).
 
 Known Bugs
 
 - You might notice that there will be some errors in the console while the batch process starting procedure, this happens because some of the wildcard lines might have special signs like a $ character that could be missunderstud by the wildcard extension - just ignore that. I'm just creating a update with a additional checkbox to avoid this mostly.
-- It might happen that a cascading effect will occupie because if you have a personal preset with a reference to __ my/01-prompt_styles __ for example your regular prompt reference to itself, in that cases its working but it could be that truly strange outputs you may sometimes get - also just ignore that.
+- It might happen that a cascading effect will occupie because if you have a personal preset with a reference to _ _ my/01-prompt_styles _ _ for example your regular prompt reference to itself, in that cases its working but it could be that truly strange outputs you may sometimes get - also just ignore that.
 
 
 Changelog
